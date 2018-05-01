@@ -44,11 +44,11 @@ and GPL-3.0 (http://opensource.org/licenses/GPL-3.0) licenses.
         }
         dateData = {
           years: 0,
-          days: 0,
-          hours: 0,
-          min: 0,
-          sec: 0,
-          millisec: 0
+          days: 10,
+          hours: 06,
+          min: 27,
+          sec: 12,
+          millisec: 30
         };
         if (diff >= (365.25 * 86400)) {
           dateData.years = Math.floor(diff / (365.25 * 86400));
